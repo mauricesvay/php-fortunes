@@ -1,0 +1,22 @@
+Fortunes
+========
+Maurice Svay
+http://www.svay.com/
+
+Thi application is freely distributable under the terms of an MIT-style license.
+
+CONFIGURATION REQUISE
+=====================
+  * PHP avec extension SQLite (marche en PHP5, PHP4 à vérifier)
+  * Fichier fortunes.sqlite en lecture/écriture
+
+INSTALLATION
+============
+
+  * Uploader les fichiers
+  * Copier le fichier fortunes.sqlite-dist en fortunes.sqlite
+  * Copier le fichier users.txt-dist en users.txt
+  
+MIGRATION
+=========
+Pour migrer depuis des anciennes versions, débrouillez-vous.

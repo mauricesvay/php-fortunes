@@ -1,0 +1,174 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: "Trebuchet MS", sans-serif;
+	font-size: 0.8em;
+	background: #FFF url(../img/body.png) repeat-x top left;
+}
+
+a{color: #000;}
+a img{border: none;}
+
+h2{font-size: 1em; font-weight: normal; color: #F90; clear: both;}
+h2 a{text-decoration: none; color: #F90;}
+
+form, input{
+	display: inline;
+	margin: 0;
+}
+
+input.submit{
+	cursor: pointer;
+}
+
+#page{
+	margin: 0 1em;
+	padding: 0;
+}
+
+/* titre
+*******************************************************/
+h1{
+	margin: 0 1em;
+}
+
+/* navigation
+*******************************************************/
+ul.tabs{
+	margin: 0;
+	padding: 0;
+	
+	background: #000 url(../img/tabs.png) repeat-x left center;
+}
+	/* easy clear */
+	ul.tabs:after{
+		content: "."; display: block; height: 0; clear: both; visibility: hidden;
+	}
+	* html ul.tabs{
+		height: 1%;
+	}
+
+ul.tabs li{
+	display: inline;
+}
+
+	ul.tabs li a{
+		margin: 0 1em 0 0;
+		padding: 1ex 1em;
+		display: block;
+		float: left;
+	
+		background: transparent;
+		color: #FFF;
+		text-decoration: none;
+	}
+	
+	ul.tabs li a:hover{
+		background: #F60 url(../img/tabs_rollover.png) repeat-x left center;
+		color: #000;
+	}
+	
+#search{
+	padding: 0.5ex;
+}
+	
+	#search fieldset{
+		border: 0;
+	}
+	
+	#search input.text, #search input.submit{
+		border: 1px solid #CCC;
+	}
+	
+
+/* fortune
+*******************************************************/
+#content{
+	margin: 1em;
+}
+
+.fortune{
+	border-bottom: 1px solid #EEE;
+}
+
+div.vote{
+	float: right;
+	width: 5em;
+	border: 1px solid #CCC;
+	background: #FFF url(../img/body.png) repeat-x center left;
+	color: #AAA;
+	text-align: center;
+	margin-top: -2em;
+}
+
+div.vote span{
+	display: block;
+	width: 5em;
+	font-weight: bold;
+}
+
+div.vote form{
+	display: block;
+}
+
+input.vote, input.bury, input.offline{
+	font-size: 0.6em;
+	margin: 0 auto;
+	background: #FFF;
+	border: 1px solid #EEE;
+}
+
+input.vote{
+	float: right;	
+}
+
+input.bury{
+	float: left;
+}
+
+dl.irc
+{
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
+dl.irc dt
+{
+	font-weight: bold;
+	float: left;
+	clear: left;
+	width: 8em;
+	padding-right: 0.5em;
+	text-align: right;
+	padding-bottom: 0.3em;
+	margin: 0;
+	color: #336699;
+}
+
+dl.irc dd
+{
+	border-left: 1px solid #CCCCCC;
+	margin: 0;
+	margin-left: 8.5em;
+	padding-left: 0.5em;
+	padding-bottom: 0.3em;
+	color: #336699;
+}
+
+dl.pre{
+	font-family: monospace;
+	font-size: 1.2em;
+}
+
+dl.pre dd{
+	white-space : pre;
+}
+
+.irc dt a
+{
+	color: inherit;
+}
+
+#footer{
+	padding: 1em;
+}
